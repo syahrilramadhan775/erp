@@ -1,0 +1,256 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"Za4eYC5Fom\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"Iv3YiOfoHv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SD Asset\",\"col\":4}},{\"id\":\"lHhgX8ccnu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SD Store Asset \",\"col\":4}},{\"id\":\"QLY3hieAml\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SD Asset Movement\",\"col\":4}},{\"id\":\"Nk2GyFijiy\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ci9fNfUw6q\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CD Asset\",\"col\":3}},{\"id\":\"hwS5ptwmYt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CD General Sarpras\",\"col\":4}},{\"id\":\"LSg0YoiINs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CD Asset Employee\",\"col\":4}},{\"id\":\"1G3xN32hX3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CD Asset Movement\",\"col\":4}},{\"id\":\"-CAe0Qn-Oj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CD Asset Store\",\"col\":3}},{\"id\":\"qogRENh4Ps\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"1gXtDI2V9W\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"VfXKFEMz0i\",\"type\":\"card\",\"data\":{\"card_name\":\"CD Assets\",\"col\":4}}]",
+ "creation": "2020-03-02 15:43:27.634865",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "assets",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Assets",
+ "links": [
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Maintenance Team",
+   "link_count": 0,
+   "link_to": "Asset Maintenance Team",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset Maintenance Team",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Maintenance",
+   "link_count": 0,
+   "link_to": "Asset Maintenance",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset Maintenance",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Maintenance Log",
+   "link_count": 0,
+   "link_to": "Asset Maintenance Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Value Adjustment",
+   "link_count": 0,
+   "link_to": "Asset Value Adjustment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Repair",
+   "link_count": 0,
+   "link_to": "Asset Repair",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Capitalization",
+   "link_count": 0,
+   "link_to": "Asset Capitalization",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Depreciation Ledger",
+   "link_count": 0,
+   "link_to": "Asset Depreciation Ledger",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Depreciations and Balances",
+   "link_count": 0,
+   "link_to": "Asset Depreciations and Balances",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset Maintenance",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Maintenance",
+   "link_count": 0,
+   "link_to": "Asset Maintenance",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "CD Assets",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "CD Asset",
+   "link_count": 0,
+   "link_to": "CD Asset",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "CD Asset Store",
+   "link_count": 0,
+   "link_to": "CD Asset Store",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "CD Asset Movement",
+   "link_count": 0,
+   "link_to": "CD Assets Movement",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "CD Asset Employee",
+   "link_count": 0,
+   "link_to": "CD Asset Employee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "CD Asset General Sarpras",
+   "link_count": 0,
+   "link_to": "CD Asset Sarpras",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-12-27 13:55:28.533291",
+ "modified_by": "Administrator",
+ "module": "Assets",
+ "name": "Assets",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 4.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "Total: {}",
+   "label": "CD Asset Movement",
+   "link_to": "CD Assets Movement",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "format": "Total: {}",
+   "label": "SD Asset Movement",
+   "link_to": "SD Asset Movement",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "format": "Total: {}",
+   "label": "CD General Sarpras",
+   "link_to": "CD Asset Sarpras",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "format": "Total: {}",
+   "label": "CD Asset Employee",
+   "link_to": "CD Asset Employee",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "Total: {}",
+   "label": "SD Asset",
+   "link_to": "SD Assets",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "format": "Total: {}",
+   "label": "SD Store Asset ",
+   "link_to": "SD Store Asset",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "format": "Total : {}",
+   "label": "CD Asset Store",
+   "link_to": "CD Asset Store",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "Total: {}",
+   "label": "CD Asset",
+   "link_to": "CD Asset",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Assets"
+}

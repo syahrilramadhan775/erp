@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:asset_name",
+ "creation": "2023-12-12 10:11:46.798115",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "asset_name",
+  "asset_owner",
+  "asset_location",
+  "column_break_eckfz",
+  "status",
+  "department",
+  "sb_details",
+  "description",
+  "maintenance_required"
+ ],
+ "fields": [
+  {
+   "fieldname": "asset_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Asset Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "asset_owner",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "Asset Owner",
+   "options": "\nCompany\nSupplier\nCustomer\nDepartment"
+  },
+  {
+   "fieldname": "asset_location",
+   "fieldtype": "Select",
+   "label": "Asset Location",
+   "options": "\nNakas 1 ( SD 2 Sebelah Meja HOD)\nNakas 2 ( Ruang Meeting SD 2 )\nGudang ( SD 1 )\nCustodian Desk"
+  },
+  {
+   "fieldname": "column_break_eckfz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "sb_details",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Asset Description"
+  },
+  {
+   "default": "0",
+   "description": "Contact your lead if Asset requires Preventive Maintenance or Calibration",
+   "fieldname": "maintenance_required",
+   "fieldtype": "Check",
+   "label": "Maintenance Required"
+  },
+  {
+   "bold": 1,
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "no_copy": 1,
+   "options": "Stored\nBorrowed\nIn Maintenance\nMissing"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-12 15:27:12.107967",
+ "modified_by": "Administrator",
+ "module": "RnD",
+ "name": "SD Assets",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_preview_popup": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "translated_doctype": 1
+}

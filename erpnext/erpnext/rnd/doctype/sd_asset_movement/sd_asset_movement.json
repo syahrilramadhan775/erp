@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "autoname": "format:SD-ASSET-{YYYY}-{####}",
+ "creation": "2023-12-13 14:47:30.640615",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "purpose",
+  "column_break_chdvm",
+  "transaction_date",
+  "section_break_p0w88",
+  "transfer_asset_list",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "read_only_depends_on": "eval: doc.company != null",
+   "reqd": 1
+  },
+  {
+   "fieldname": "purpose",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Purpose",
+   "options": "\nTransfer\nBorrow",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_p0w88",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval: doc.purpose == \"Transfer\"",
+   "fieldname": "transfer_asset_list",
+   "fieldtype": "Table",
+   "label": "Transfered Asset List",
+   "options": "SD Asset Movement Item"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "SD Asset Movement",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "description": "Asia/Jakarta",
+   "fieldname": "transaction_date",
+   "fieldtype": "Date",
+   "label": "Transaction Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_chdvm",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-12-13 14:58:21.203458",
+ "modified_by": "Administrator",
+ "module": "RnD",
+ "name": "SD Asset Movement",
+ "name_case": "Title Case",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
