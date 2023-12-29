@@ -3,10 +3,8 @@
 
 frappe.ui.form.on('CD Assets Movement', {
 	refresh: function(frm){
-		frm.call('get_linked_doc').then(r => {
-			if (r.message){
-				let linked_doc = r.message
-			}
+		frm.call('get_linked_doc').callback(r => {
+			console.log(r)
 		})
-	},
+	}
 });

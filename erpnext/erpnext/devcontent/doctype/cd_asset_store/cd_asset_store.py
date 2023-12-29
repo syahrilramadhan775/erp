@@ -2,14 +2,14 @@
 # For license information, please see license.txt
 
 import frappe
+import random
 from frappe import _
-from frappe.model.naming import getseries
 from frappe.model.document import Document
 
 class CDAssetStore(Document):
 	def autoname(self):
 		asset = frappe.db.get_value("CD Asset", self.asset_name, "asset_name")
-		self.name = f"{asset} - {getseries(self.asset_name, 5)}"
+		self.name = f"{asset} - {random.randint(100, 1000)}"
 
 	def before_submit(self):
 		self.validate_employee()
